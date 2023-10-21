@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #ffffff;
+  background-image: url("F:/HACKATHON/Pictures/INDIABACKGROUND2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* styles.css */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+.destination h3,
+.destination p {
+    color: #ffffff; 
+}
+#home h2 {
+  color: #ffffff; 
+}
+#home p {
+  color: #ffffff; 
+}
+#destinations h2 {
+  color: #ffffff; 
+}
+#about h2, #contact h2 {
+  color: #ffffff; 
+}
+#about p, #contact p {
+  color: #ffffff; 
+}
+.login-button, .signup-button {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  .login-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px; 
+  }
+  .signup-button {
+    background-color: #28A745; 
+    color: #fff;
+    border-radius: 5px;
+  }
+  .login-button:hover, .signup-button:hover {
+    background-color: #0056b3; 
+  }
+  .buttons-container {
+    text-align: right;
+    margin-top: 20px;
+  }
+.visit-button{
+  padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+    background-color: #163992; 
+    color: #fff; 
+    border-radius: 5px; 
+}
+style
+img {
+    width: 300px;
+    transition: transform 0.3s; 
+  }
+  img:hover {
+    transform: scale(1.2);
+  }
+  img {
+    width: 300px;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s; 
+  }
+  img:active,
+  img:focus {
+    border-color: rgb(255, 255, 255); 
+  }
+
+.circular-image {
+    width: 300px; 
+    height: 200px;
+    object-fit: cover; 
+  }
+img {
+    border-radius: 10px; 
+  }
+header {
+    background-color:#ffffff;
+    color: #450101;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    background-color: transparent;
+    list-style-type: none;
+    text-align: center;
+    padding: 0; 
+    height: 50px;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: transparent;
+}
+.destination {
+    display: inline-block;
+    width: 450px;
+    margin: 10px;
+}
+footer {
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
